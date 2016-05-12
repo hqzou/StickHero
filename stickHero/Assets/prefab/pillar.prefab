@@ -1,0 +1,151 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "d35ae8d7-0979-4821-88f1-bf1f13130a86",
+    "_prefab": [
+      7,
+      "82bf48a4-da40-4c86-9a35-7a15686b8fbb"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "pillar"
+    ],
+    "uniqueName": [
+      7,
+      ""
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.StickHero.uiPillar",
+        "data": "f1842b36-b0b2-44b1-9e54-659c7d4ca83f"
+      }
+    ],
+    "position": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      2208,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "Assets/atlas/StickHero.bin",
+      "fd7e37d2-a02a-4c7a-ab53-7d8e97295b89",
+      "hk.png"
+    ],
+    "frame": [
+      7,
+      "hk.png"
+    ],
+    "imageType": [
+      3,
+      1
+    ],
+    "skewX": [
+      3,
+      null
+    ],
+    "skewY": [
+      3,
+      null
+    ]
+  },
+  "__json": {
+    "c3b6f979-4394-42e0-8128-cd8bbb6dd196": {
+      "class": "qc.StickHero.Pillar",
+      "data": {
+        "uuid": [
+          7,
+          "c3b6f979-4394-42e0-8128-cd8bbb6dd196"
+        ],
+        "enable": true,
+        "swingPrefab": null,
+        "bg": null,
+        "head": null
+      }
+    },
+    "f1842b36-b0b2-44b1-9e54-659c7d4ca83f": {
+      "class": "qc.StickHero.uiPillar",
+      "data": {
+        "uuid": [
+          7,
+          "f1842b36-b0b2-44b1-9e54-659c7d4ca83f"
+        ],
+        "enable": true,
+        "swingPrefab": null,
+        "bg": null,
+        "head": null,
+        "stickPrefab": [
+          16,
+          "1b66d22b-7ee7-4c4b-af9c-b665c5c60e8d"
+        ]
+      }
+    }
+  },
+  "dependences": {
+    "1b66d22b-7ee7-4c4b-af9c-b665c5c60e8d": {
+      "key": "1b66d22b-7ee7-4c4b-af9c-b665c5c60e8d",
+      "uuid": "1b66d22b-7ee7-4c4b-af9c-b665c5c60e8d"
+    },
+    "fd7e37d2-a02a-4c7a-ab53-7d8e97295b89": {
+      "key": "Assets/atlas/StickHero.bin",
+      "uuid": "fd7e37d2-a02a-4c7a-ab53-7d8e97295b89"
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "42a15641-4dd0-4b78-a376-6f0f50b19361",
+    "_prefab": [
+      7,
+      "1b66d22b-7ee7-4c4b-af9c-b665c5c60e8d"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "stick"
+    ],
+    "uniqueName": [
+      7,
+      ""
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.StickHero.Stick",
+        "data": "1a187a32-a231-4edb-9892-0ebf934dd37e"
+      },
+      {
+        "clazz": "qc.TweenRotation",
+        "data": "004abaab-8a19-4813-9b0b-14f593df5df3"
+      },
+      {
+        "clazz": "qc.TweenRotation",
+        "data": "e00e6e4f-2333-4d7c-9887-67997c1c81a3"
+      }
+    ],
+    "position": [
+      0.5,
+      1,
+      100.00000588640643,
+      600,
+      100.00000588640643,
+      600,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9999999732436071
+    ],
+    "scaleY": [
+      3,
+      0.9999999732436071
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "Assets/atlas/StickHero.bin",
+      "fd7e37d2-a02a-4c7a-ab53-7d8e97295b89",
+      "hk.png"
+    ],
+    "frame": [
+      7,
+      "hk.png"
+    ],
+    "imageType": [
+      3,
+      0
+    ],
+    "skewX": [
+      3,
+      null
+    ],
+    "skewY": [
+      3,
+      null
+    ]
+  },
+  "__json": {
+    "1a187a32-a231-4edb-9892-0ebf934dd37e": {
+      "class": "qc.StickHero.Stick",
+      "data": {
+        "uuid": [
+          7,
+          "1a187a32-a231-4edb-9892-0ebf934dd37e"
+        ],
+        "enable": true
+      }
+    },
+    "004abaab-8a19-4813-9b0b-14f593df5df3": {
+      "class": "qc.TweenRotation",
+      "data": {
+        "uuid": [
+          7,
+          "004abaab-8a19-4813-9b0b-14f593df5df3"
+        ],
+        "enable": false,
+        "_curve": [
+          22,
+          "qc.BezierCurve",
+          [
+            [
+              0,
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              0.8,
+              1.005,
+              1.6094,
+              1.6094
+            ],
+            [
+              0.9,
+              0.7,
+              -0.6719976250000016,
+              -0.6719976250000016
+            ],
+            [
+              1,
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sampleMethod": [
+          3,
+          0
+        ],
+        "style": [
+          3,
+          0
+        ],
+        "delay": [
+          3,
+          0
+        ],
+        "duration": [
+          3,
+          0.3
+        ],
+        "tweenGroup": [
+          3,
+          0
+        ],
+        "flag": [
+          7,
+          "start"
+        ],
+        "playOnAwake": [
+          5,
+          false
+        ],
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          1.5707963267948966
+        ]
+      }
+    },
+    "e00e6e4f-2333-4d7c-9887-67997c1c81a3": {
+      "class": "qc.TweenRotation",
+      "data": {
+        "uuid": [
+          7,
+          "e00e6e4f-2333-4d7c-9887-67997c1c81a3"
+        ],
+        "enable": false,
+        "_curve": [
+          22,
+          "qc.BezierCurve",
+          [
+            [
+              0,
+              0,
+              0.5,
+              0.5
+            ],
+            [
+              1,
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sampleMethod": [
+          3,
+          0
+        ],
+        "style": [
+          3,
+          0
+        ],
+        "delay": [
+          3,
+          0
+        ],
+        "duration": [
+          3,
+          0.3
+        ],
+        "tweenGroup": [
+          3,
+          0
+        ],
+        "flag": [
+          7,
+          "over"
+        ],
+        "playOnAwake": [
+          5,
+          false
+        ],
+        "from": [
+          3,
+          1.5707963267948966
+        ],
+        "to": [
+          3,
+          3.141592653589793
+        ]
+      }
+    }
+  },
+  "dependences": {
+    "fd7e37d2-a02a-4c7a-ab53-7d8e97295b89": {
+      "key": "Assets/atlas/StickHero.bin",
+      "uuid": "fd7e37d2-a02a-4c7a-ab53-7d8e97295b89"
+    }
+  }
+}

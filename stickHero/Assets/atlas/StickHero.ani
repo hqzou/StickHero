@@ -1,0 +1,1 @@
+{"animations":{"walk":{"frames":["walk_1.png","walk_2.png","walk_3.png","walk_4.png"],"rate":10,"loop":true},"stop":{"frames":["walk_1.png"],"rate":10},"die":{"frames":["die_1.png"],"rate":10}}}
